@@ -5,7 +5,9 @@ function feetToMile(ft) {
 
     if (ft < 0) {
         return "Input can't be less than zero for distance";
-    } else return ft + " feet" + " = " + mileFix + " miles";
+    } else {
+          return ft + " feet" + " = " + mileFix + " miles";
+    }
 }
 
 console.log(feetToMile(1422));
